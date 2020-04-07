@@ -357,6 +357,77 @@
         }
     });
 
+    
+    $('#one-img-slide2').flexslider({
+        animation: "slide",
+        directionNav: true,
+        touch: true,
+        slideshow: false,
+        prevText: ["<i class='fa fa-angle-left'></i>"],
+        nextText: ["<i class='fa fa-angle-right'></i>"],
+        start: function(){
+            var $container = $('.masonry');
+            $container.imagesLoaded( function() {
+                $container.isotope({
+                    itemSelector: '.masonry-item',
+                    layoutMode: 'masonry'
+                });
+            });
+        }
+    });
+
+    $('#one-img-slide3').flexslider({
+        animation: "slide",
+        directionNav: true,
+        touch: true,
+        slideshow: false,
+        prevText: ["<i class='fa fa-angle-left'></i>"],
+        nextText: ["<i class='fa fa-angle-right'></i>"],
+        start: function(){
+            var $container = $('.masonry');
+            $container.imagesLoaded( function() {
+                $container.isotope({
+                    itemSelector: '.masonry-item',
+                    layoutMode: 'masonry'
+                });
+            });
+        }
+    });
+    $('#one-img-slide4').flexslider({
+        animation: "slide",
+        directionNav: true,
+        touch: true,
+        slideshow: false,
+        prevText: ["<i class='fa fa-angle-left'></i>"],
+        nextText: ["<i class='fa fa-angle-right'></i>"],
+        start: function(){
+            var $container = $('.masonry');
+            $container.imagesLoaded( function() {
+                $container.isotope({
+                    itemSelector: '.masonry-item',
+                    layoutMode: 'masonry'
+                });
+            });
+        }
+    });
+    $('#one-img-slide5').flexslider({
+        animation: "slide",
+        directionNav: true,
+        touch: true,
+        slideshow: false,
+        prevText: ["<i class='fa fa-angle-left'></i>"],
+        nextText: ["<i class='fa fa-angle-right'></i>"],
+        start: function(){
+            var $container = $('.masonry');
+            $container.imagesLoaded( function() {
+                $container.isotope({
+                    itemSelector: '.masonry-item',
+                    layoutMode: 'masonry'
+                });
+            });
+        }
+    });
+
 
     /* Owl Carousel
     -------------------------------------------------------*/
