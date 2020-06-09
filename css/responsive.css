@@ -342,6 +342,55 @@
   .works-grid .work-item {
     width: 100%;
   }
+
+  .masthead h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+.sub-title {
+  padding: 32px;
+  font-size: 30px;
+}
+div#carouselExampleSlidesOnly {
+  height: 348px!important;
+}
+
+.subheading {
+  font-family: "Pt Serif", serif;
+  font-size: 15px;
+  font-style: italic;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+input#submit-message {
+  display: block;
+  text-align: right;
+  margin: auto;
+  font-family: 'Indie Flower', cursive;
+}
+
+footer.footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+textarea#comment,input {
+  font-family: 'Indie Flower', cursive;
+}
+
+p, .contact-item h6, a {
+  color:black !important
+}
+
+
+
 }
 
 /*# sourceMappingURL=responsive.css.map */

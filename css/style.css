@@ -3544,11 +3544,11 @@ input[type="text"], input[type="password"], input[type="email"], input[type="url
 }
 
 .contact-icon i {
-  color: black !important;
+  color: #bfa67a;
 }
 
 .menu-socials li > a:hover, .icon-effect-1 .hi-icon, .contact-icon, input.searchbox:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, textarea:focus {
-  border-color: black !important;
+  border-color: #bfa67a !important;
 }
 
 
@@ -3591,4 +3591,8 @@ to   { opacity: 1; }
 @-o-keyframes fadein {
 from { opacity: 0; }
 to   { opacity: 1; }
+}
+
+i.fa.fa-paint-brush {
+  color: #bfa67a;
 }
