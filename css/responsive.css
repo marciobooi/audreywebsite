@@ -385,11 +385,13 @@ textarea#comment,input {
   font-family: 'Indie Flower', cursive;
 }
 
-p, .contact-item h6, a {
-  color:black !important
+.contact p, h1.sub-title.mb-1.text-center.aos-init.aos-animate {
+  color: white;
 }
 
-
+.mobileText{
+  color:white
+}
 
 }
 

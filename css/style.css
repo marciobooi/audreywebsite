@@ -3407,9 +3407,11 @@ font-size: 70px;
 }
 
 .contact{
-  background:url("../img/sections/1.jpg");
+  background:url("../img/sections/old/Pour site web2.jpg");
   background-size: cover;       /* For flexibility */
-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(5px);
+  
 }
 
 .contact-row {
@@ -3595,4 +3597,12 @@ to   { opacity: 1; }
 
 i.fa.fa-paint-brush {
   color: #bfa67a;
+}
+
+.sub-title{
+color:white
+}
+
+.textb{
+  color:black
 }
